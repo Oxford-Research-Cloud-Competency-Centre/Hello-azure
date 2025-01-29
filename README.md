@@ -1,3 +1,5 @@
+© Chancellors, Masters and Scholars of The University of Oxford. All rights reserved.
+
 # Explore different providers
 
 This course is available for multiple cloud providers. Choose your preferred platform:
@@ -16,46 +18,49 @@ This course is available for multiple cloud providers. Choose your preferred pla
 # Instructions
 
 Step 1. Fork (or make a copy of) this repository
-
-***
-
-Step 2. Go to the Microsoft Azure front page and type "App Services" in the search bar
+<details>
+<summary>Step 2. Go to the Microsoft Azure front page and type "App Services" in the search bar</summary>
 
 ![Step 2](README_images/img1.png)
 
 ***
-
-Step 3. Go to Create -> Web App
+</details>
+<details>
+<summary>Step 3. Go to Create -> Web App</summary>
 
 ![Step 3](README_images/img2.png)
 
 ***
-
-Step 4. Create a new resource group for your application
+</details>
+<details>
+<summary>Step 4. Create a new resource group for your application</summary>
 
 ![Step 4](README_images/img6.png)
 
 ***
-
-Step 5. Choose an instance name. Select Python, Linux, and a region (UK South)
+</details>
+<details>
+<summary>Step 5. Choose an instance name. Select Python, Linux, and a region (UK South)</summary>
 
 ![Step 5](README_images/img3.png)
 
 ***
-
-Step 6. Go to Deployment, set "Continuous Deployment" to "Enable" and select your repository 
+</details>
+<details>
+<summary>Step 6. Go to Deployment, set "Continuous Deployment" to "Enable" and select your repository</summary>
 
 ![Step 6](README_images/img4.png)
 
 ***
-
-Step 7. Internet access should already be enabled. Keep it on. 
+</details>
+<details>
+<summary>Step 7. Internet access should already be enabled. Keep it on.</summary>
 
 ![Step 7](README_images/img7.png)
 
 ***
-
-Create the app and wait for deployment. Voilà! Access the URL.
+</details>
+<summary>Create the app and wait for deployment. Voilà! Access the URL.</summary>
 
 ![Voilà](README_images/img5.png)
 
@@ -65,21 +70,23 @@ Create the app and wait for deployment. Voilà! Access the URL.
 
 ## Modifying the code
 
-You commit some changes to your repository and watch how the service is updated automatically. 
+You can commit some changes to your repository and watch how the service is updated automatically. 
 
 ***
 
 ## Cleaning up
 
-The simplest way to delete all the resources you just created is to type "Resource Groups" in the search bar and delete the group that you created earlier.  
+<details>
+<summary>The simplest way to delete all the resources you just created is to type "Resource Groups" in the search bar and delete the group that you created earlier.</summary>
 
 ![Deleting a service](README_images/resource_group.png)
 
 ***
-
+</details>
 ## Adding an API endpoint
 
-Add the following code in app.py 
+<details>
+<summary>Add the following code in app.py </summary>
 
 ```	
 @app.route("/hello_api")
@@ -93,10 +100,33 @@ def hello_api():
     }
 ```
 
+***
+</details>
 Then test your endpoint
 
 ![API endpoint](README_images/hello_api.png)
 
 ***
+
+## User interface
+
+<details>
+<summary>...</summary>
+Missing content
+</details>
+
+## Database writing/reading
+
+<details>
+<summary>Go to the AWS Console and type "RDS" in the search bar</summary>
+Missing content
+</details>
+
+## Storage bucket writing/reading
+
+<details>
+<summary>Go to the AWS Console and type "S3" in the search bar</summary>
+Missing content
+</details>
 
 
