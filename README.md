@@ -118,14 +118,14 @@ Missing content
 ## Database writing/reading
 
 <details>
-<summary>Go to the AWS Console and type "RDS" in the search bar</summary>
+<summary>Go to the Azure Console and type "SQL" in the search bar</summary>
 Missing content
 </details>
 
 ## Storage bucket writing/reading
 
 <details>
-<summary>Go to the AWS Console and type "S3" in the search bar</summary>
+<summary>Go to the Azure Console and type "Storage accounts" in the search bar</summary>
 Missing content
 </details>
 
