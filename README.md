@@ -60,7 +60,7 @@ Step 1. Fork (or make a copy of) this repository
 
 ***
 </details>
-<summary>Create the app and wait for deployment. Voilà! Access the URL.</summary>
+Create the app and wait for deployment. Voilà! Access the URL.
 
 ![Voilà](README_images/img5.png)
 
