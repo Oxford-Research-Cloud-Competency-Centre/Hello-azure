@@ -83,6 +83,7 @@ You can commit some changes to your repository and watch how the service is upda
 
 ***
 </details>
+
 ## Adding an API endpoint
 
 <details>
