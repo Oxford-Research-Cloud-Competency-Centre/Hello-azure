@@ -13,7 +13,13 @@ This course is available for multiple cloud providers. Choose your preferred pla
 
 # Instructions
 
-Step 1. Fork (or make a copy of) this repository
+<details>
+<summary>Step 1. Fork (or make a copy of) this repository</summary>
+
+![Step 2](README_images/download.png)
+
+***
+</details>
 <details>
 <summary>Step 2. Go to the Microsoft Azure front page and type "App Services" in the search bar</summary>
 
@@ -64,13 +70,17 @@ Create the app and wait for deployment. Voilà! Access the URL.
 
 # Going further
 
-## Modifying the code
+<details>
+<summary><h2>Modifying the code</h2></summary>
 
 You can commit some changes to your repository and watch how the service is updated automatically. 
 
 ***
 
-## Cleaning up
+</details>
+
+<details>
+<summary><h2>Cleaning up</h2></summary>
 
 <details>
 <summary>The simplest way to delete all the resources you just created is to type "Resource Groups" in the search bar and delete the group that you created earlier.</summary>
@@ -80,7 +90,10 @@ You can commit some changes to your repository and watch how the service is upda
 ***
 </details>
 
-## Adding an API endpoint
+</details>
+
+<details>
+<summary><h2>Adding an API endpoint</h2></summary>
 
 <details>
 <summary>Add the following code in app.py </summary>
@@ -105,28 +118,40 @@ Then test your endpoint
 
 ***
 
-## User interface
+</details>
+
+<details>
+<summary><h2>User interface</h2></summary>
 
 <details>
 <summary>...</summary>
 Missing content
 </details>
 
-## Database writing/reading
+</details>
+
+<details>
+<summary><h2>Database writing/reading</h2></summary>
 
 <details>
 <summary>Go to the Azure Console and type "SQL" in the search bar</summary>
 Missing content
 </details>
 
-## Storage bucket writing/reading
+</details>
+
+<details>
+<summary><h2>Storage bucket writing/reading</h2></summary>
 
 <details>
 <summary>Go to the Azure Console and type "Storage accounts" in the search bar</summary>
 Missing content
 </details>
 
-## Local testing
+</details>
+
+<details>
+<summary><h2>Local testing</h2></summary>
 
 After a while, it's not fun anymore to wait for deployment. You want to test your changes before. 
 
@@ -170,3 +195,5 @@ Open localhost:5000 in your browser.
 </details>
 
 ![Local testing](README_images/local_testing.png)
+
+</details>
