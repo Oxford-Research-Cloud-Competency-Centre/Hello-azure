@@ -75,28 +75,21 @@ Create the app and wait for deployment. Voilà! Access the URL.
 
 You can commit some changes to your repository and watch how the service is updated automatically. 
 
-***
-
 </details>
 
 <details>
 <summary><h2>Cleaning up</h2></summary>
 
-<details>
-<summary>The simplest way to delete all the resources you just created is to type "Resource Groups" in the search bar and delete the group that you created earlier.</summary>
+The simplest way to delete all the resources you just created is to type "Resource Groups" in the search bar and delete the group that you created earlier.
 
 ![Deleting a service](README_images/resource_group.png)
-
-***
-</details>
 
 </details>
 
 <details>
 <summary><h2>Adding an API endpoint</h2></summary>
 
-<details>
-<summary>Add the following code in app.py </summary>
+Add the following code in app.py
 
 ```	
 @app.route("/hello_api")
@@ -110,23 +103,16 @@ def hello_api():
     }
 ```
 
-***
-</details>
 Then test your endpoint
 
 ![API endpoint](README_images/hello_api.png)
-
-***
 
 </details>
 
 <details>
 <summary><h2>User interface</h2></summary>
 
-<details>
-<summary>...</summary>
 Missing content
-</details>
 
 </details>
 
@@ -195,5 +181,17 @@ Open localhost:5000 in your browser.
 </details>
 
 ![Local testing](README_images/local_testing.png)
+
+</details>
+
+<details>
+<summary><h2>Running a job on a separate machine</h2></summary>
+
+This web server is not powerful enough to handle sophisticated tasks. What if GPUs are needed for a heavy workflow? Then you need the ability to create machines dynamically and control them remotely (Infrastructure as Code). 
+
+<details>
+<summary>Install dependencies</summary>
+Missing content
+</details>
 
 </details>
